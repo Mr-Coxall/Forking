@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="100" height="15" tilewidth="128" tileheight="128" infinite="0" nextobjectid="2">
+ <tileset firstgid="1" name="level15" tilewidth="2000" tileheight="1143" tilecount="31" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="../sprites/graveyard/Tiles/Bone1.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="128" source="../sprites/graveyard/Tiles/Bone2.png"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="128" source="../sprites/graveyard/Tiles/Bone3.png"/>
+  </tile>
+  <tile id="3">
+   <image width="128" height="128" source="../sprites/graveyard/Tiles/Bone4.png"/>
+  </tile>
+  <tile id="4">
+   <image width="128" height="128" source="../sprites/graveyard/Tiles/Tile1.png"/>
+  </tile>
+  <tile id="5">
+   <image width="128" height="128" source="../sprites/graveyard/Tiles/Tile2.png"/>
+  </tile>
+  <tile id="6">
+   <image width="128" height="128" source="../sprites/graveyard/Tiles/Tile3.png"/>
+  </tile>
+  <tile id="7">
+   <image width="128" height="128" source="../sprites/graveyard/Tiles/Tile4.png"/>
+  </tile>
+  <tile id="8">
+   <image width="128" height="128" source="../sprites/graveyard/Tiles/Tile5.png"/>
+  </tile>
+  <tile id="9">
+   <image width="128" height="128" source="../sprites/graveyard/Tiles/Tile6.png"/>
+  </tile>
+  <tile id="10">
+   <image width="128" height="128" source="../sprites/graveyard/Tiles/Tile7.png"/>
+  </tile>
+  <tile id="11">
+   <image width="128" height="128" source="../sprites/graveyard/Tiles/Tile8.png"/>
+  </tile>
+  <tile id="12">
+   <image width="128" height="128" source="../sprites/graveyard/Tiles/Tile9.png"/>
+  </tile>
+  <tile id="13">
+   <image width="128" height="128" source="../sprites/graveyard/Tiles/Tile10.png"/>
+  </tile>
+  <tile id="14">
+   <image width="128" height="128" source="../sprites/graveyard/Tiles/Tile11.png"/>
+  </tile>
+  <tile id="15">
+   <image width="128" height="128" source="../sprites/graveyard/Tiles/Tile12.png"/>
+  </tile>
+  <tile id="16">
+   <image width="128" height="128" source="../sprites/graveyard/Tiles/Tile13.png"/>
+  </tile>
+  <tile id="17">
+   <image width="128" height="128" source="../sprites/graveyard/Tiles/Tile14.png"/>
+  </tile>
+  <tile id="18">
+   <image width="128" height="128" source="../sprites/graveyard/Tiles/Tile15.png"/>
+  </tile>
+  <tile id="19">
+   <image width="128" height="128" source="../sprites/graveyard/Tiles/Tile16.png"/>
+  </tile>
+  <tile id="20">
+   <image width="86" height="87" source="../sprites/graveyard/Objects/ArrowSign.png"/>
+  </tile>
+  <tile id="21">
+   <image width="182" height="90" source="../sprites/graveyard/Objects/Bush1.png"/>
+  </tile>
+  <tile id="22">
+   <image width="100" height="64" source="../sprites/graveyard/Objects/Bush2.png"/>
+  </tile>
+  <tile id="23">
+   <image width="106" height="106" source="../sprites/graveyard/Objects/Crate.png"/>
+  </tile>
+  <tile id="24">
+   <image width="132" height="74" source="../sprites/graveyard/Objects/DeadBush.png"/>
+  </tile>
+  <tile id="25">
+   <image width="91" height="93" source="../sprites/graveyard/Objects/Sign.png"/>
+  </tile>
+  <tile id="26">
+   <image width="102" height="50" source="../sprites/graveyard/Objects/Skeleton.png"/>
+  </tile>
+  <tile id="27">
+   <image width="54" height="55" source="../sprites/graveyard/Objects/TombStone1.png"/>
+  </tile>
+  <tile id="28">
+   <image width="53" height="76" source="../sprites/graveyard/Objects/TombStone2.png"/>
+  </tile>
+  <tile id="29">
+   <image width="286" height="239" source="../sprites/graveyard/Objects/Tree.png"/>
+  </tile>
+  <tile id="30">
+   <image width="2000" height="1143" source="../sprites/graveyard/graveyardBG.png"/>
+  </tile>
+ </tileset>
+ <objectgroup name="background">
+  <object id="1" gid="31" x="-8" y="1939" width="5412" height="1935"/>
+ </objectgroup>
+</map>
