@@ -2,7 +2,7 @@
 --
 -- menu.lua
 --
--- Created by: Mr. Coxall
+-- Created by: Ryan Lalonde
 -- Created on: Apr 2018
 -- 
 -- This file makes the menu appear
