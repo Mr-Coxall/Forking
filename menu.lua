@@ -17,13 +17,13 @@ local widget = require "widget"
 --------------------------------------------
 
 -- forward declarations and other locals
-local level0
+local level3
 
--- 'onRelease' event listener for level0
-local function onlevel0Release()
+-- 'onRelease' event listener for level3
+local function onlevel3Release()
 	
-	-- go to level0.lua scene
-	composer.gotoScene( ".levels.level0", "fade", 500 )
+	-- go to level3.lua scene
+	composer.gotoScene( ".levels.level3", "fade", 500 )
 	
 	return true	-- indicates successful touch
 end
@@ -49,7 +49,7 @@ function scene:create( event )
 	titleLogo.y = 100
 	
 	-- create a level buttons
-	level0 = widget.newButton{
+	level3 = widget.newButton{
 		label = "Level 0",
 		fontSize = 48*2,
 		labelColor = { default={255}, over={128} },
@@ -57,10 +57,10 @@ function scene:create( event )
 		over = "button-over.png",
 		width = (154*4), 
 		height = (40*4),
-		onRelease = onlevel0Release	-- event listener function
+		onRelease = onlevel3Release	-- event listener function
 	}
-	level0.x = 200
-	level0.y = 200
+	level3.x = 200
+	level3.y = 200
 
 	level1 = widget.newButton{
 		label = "Level 1",
@@ -288,7 +288,7 @@ function scene:create( event )
 	-- all display objects must be inserted into group
 	sceneGroup:insert( background )
 	sceneGroup:insert( titleLogo )
-	sceneGroup:insert( level0 )
+	sceneGroup:insert( level3 )
 	sceneGroup:insert( level1 )
 	sceneGroup:insert( level2 )
 	sceneGroup:insert( level3 )
@@ -345,8 +345,8 @@ function scene:destroy( event )
 	-- e.g. remove display objects, remove touch listeners, save state, etc.
 
 	-- widgets must be manually removed
-	level0:removeSelf()	
-	level0 = nil
+	level3:removeSelf()	
+	level3 = nil
 
 	level1:removeSelf()	
 	level1 = nil
@@ -399,9 +399,9 @@ function scene:destroy( event )
 	level17:removeSelf()	
 	level17 = nil
 	
-	--if level0 then
-	--	level0:removeSelf()	-- widgets must be manually removed
-	--	level0 = nil
+	--if level3 then
+	--	level3:removeSelf()	-- widgets must be manually removed
+	--	level3 = nil
 	--end
 end
 
