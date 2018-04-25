@@ -2,7 +2,7 @@
 --
 -- main.lua
 --
--- Created by: Mr. Coxall
+-- Created by: Faiyaz
 -- Created on: Apr 2018
 -- 
 -- This file makes is the starting point for a multi-scene game

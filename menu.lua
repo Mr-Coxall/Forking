@@ -49,7 +49,7 @@ function scene:create( event )
 	titleLogo.y = 100
 	
 	-- create a level buttons
-	level3 = widget.newButton{
+	level0 = widget.newButton{
 		label = "Level 0",
 		fontSize = 48*2,
 		labelColor = { default={255}, over={128} },
@@ -57,10 +57,10 @@ function scene:create( event )
 		over = "button-over.png",
 		width = (154*4), 
 		height = (40*4),
-		onRelease = onlevel3Release	-- event listener function
+		onRelease = onlevel0Release	-- event listener function
 	}
-	level3.x = 200
-	level3.y = 200
+	level0.x = 200
+	level0.y = 200
 
 	level1 = widget.newButton{
 		label = "Level 1",
@@ -288,7 +288,7 @@ function scene:create( event )
 	-- all display objects must be inserted into group
 	sceneGroup:insert( background )
 	sceneGroup:insert( titleLogo )
-	sceneGroup:insert( level3 )
+	sceneGroup:insert( level0 )
 	sceneGroup:insert( level1 )
 	sceneGroup:insert( level2 )
 	sceneGroup:insert( level3 )
@@ -345,8 +345,8 @@ function scene:destroy( event )
 	-- e.g. remove display objects, remove touch listeners, save state, etc.
 
 	-- widgets must be manually removed
-	level3:removeSelf()	
-	level3 = nil
+	level0:removeSelf()	
+	level0 = nil
 
 	level1:removeSelf()	
 	level1 = nil
