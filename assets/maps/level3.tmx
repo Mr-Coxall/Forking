@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="50" height="10" tilewidth="128" tileheight="128" infinite="0" nextobjectid="20">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="50" height="10" tilewidth="128" tileheight="128" infinite="0" nextobjectid="34">
  <tileset firstgid="1" name="Tiles" tilewidth="256" tileheight="256" tilecount="107" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
@@ -324,11 +324,19 @@
    <image width="128" height="128" source="../sprites/graveyard/Tiles/Tile16.png"/>
   </tile>
  </tileset>
+ <tileset firstgid="108" name="download" tilewidth="300" tileheight="168" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="300" height="168" source="../../../../../../../Desktop/download.jpg"/>
+  </tile>
+ </tileset>
+ <objectgroup name="background">
+  <object id="22" gid="108" x="0" y="1060.25" width="6388" height="1060"/>
+ </objectgroup>
  <objectgroup name="Background">
-  <object id="4" gid="45" x="4280" y="1297" width="2112" height="763"/>
-  <object id="5" gid="1073741887" x="4288" y="526" width="1840" height="779" rotation="180"/>
   <object id="6" gid="45" x="-8" y="1284" width="2480" height="763"/>
-  <object id="19" gid="1073741887" x="4288" y="526" width="1840" height="779" rotation="180"/>
+  <object id="19" gid="1073741887" x="3816.48" y="510.727" width="1840" height="779" rotation="180"/>
+  <object id="23" gid="1073741887" x="6398.18" y="522.621" width="2588.48" height="754.758" rotation="180"/>
  </objectgroup>
  <objectgroup name="Middle">
   <object id="9" gid="70" x="378.242" y="622.03" width="157.697" height="217.152"/>
@@ -338,7 +346,16 @@
   <object id="14" gid="25" x="1367.87" y="840.086" width="244.27" height="244.27"/>
   <object id="15" gid="25" x="1746.68" y="734.253" width="244.27" height="244.27"/>
   <object id="16" gid="25" x="1963.71" y="494.016" width="244.27" height="244.27"/>
-  <object id="17" gid="25" x="2371.95" y="715.353" width="244.27" height="244.27"/>
-  <object id="18" gid="25" x="2858.05" y="517.585" width="244.27" height="244.27"/>
+  <object id="17" gid="25" x="2335.59" y="985.05" width="244.27" height="244.27"/>
+  <object id="18" gid="25" x="2691.38" y="641.827" width="244.27" height="244.27"/>
+  <object id="24" gid="25" x="3071.8" y="702.107" width="244.27" height="244.27"/>
+  <object id="25" gid="25" x="3517.26" y="935.441" width="244.27" height="244.27"/>
+  <object id="26" gid="25" x="4023.32" y="565.744" width="244.27" height="244.27"/>
+  <object id="28" gid="25" x="4481.69" y="848.799" width="244.27" height="244.27" rotation="-32.8043"/>
+  <object id="29" gid="25" x="4732.41" y="911.198" width="244.27" height="244.27"/>
+  <object id="30" gid="25" x="5360.68" y="1020.77" width="244.27" height="244.27" rotation="-86.8434"/>
+  <object id="31" gid="25" x="5369.63" y="527.9" width="244.27" height="244.27" rotation="-296.396"/>
+  <object id="32" gid="70" x="6180.3" y="261.257" width="157.697" height="217.152"/>
+  <object id="33" gid="25" x="5960.48" y="522.137" width="376" height="256"/>
  </objectgroup>
 </map>
